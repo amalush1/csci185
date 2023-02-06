@@ -1,14 +1,19 @@
 /* You're welcome to change any of this! */
 * {
     box-sizing: border-box;
+    
 }
 
 body {
-    margin: 0px;
+    margin: 100px;
     font-family: Arial, sans-serif;
 }
 
 p, a, li {
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 1.1em;
+}
+
+title {
+    font-size: 300em;
 }
