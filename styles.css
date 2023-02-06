@@ -4,6 +4,11 @@
     
 }
 
+@font-face {
+    font-family:"Wolfs Bane" ;
+    src: url(assets/wolfs_bane_ii/wolfsbane2iiacad.ttf);
+}
+
 body {
     margin: 100px;
     font-family: Arial, sans-serif;
@@ -12,6 +17,12 @@ body {
 p, a, li {
     line-height: 2em;
     font-size: 1.1em;
+}
+
+h1 {
+    font-family:"Wolfs Bane" ;
+    font-weight:500 ;
+    font-size: 2000
 }
 
 title {
