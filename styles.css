@@ -10,8 +10,10 @@
 }
 
 body {
-    margin: 100px;
+    margin: 50px;
     font-family: Arial, sans-serif;
+    text-align: center ;
+    background-color: gainsboro;
 }
 
 p, a, li {
@@ -21,10 +23,13 @@ p, a, li {
 
 h1 {
     font-family:"Wolfs Bane" ;
-    font-weight:500 ;
-    font-size: 2000
+    font-weight:100 ;
+    font-size: 1000 ;
+    text-align: center ;
+    scale: 3.5 ;
 }
 
 title {
     font-size: 300em;
+    font-weight: 50;
 }
