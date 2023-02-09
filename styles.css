@@ -29,7 +29,13 @@ h1 {
     scale: 3.5 ;
 }
 
+
 title {
     font-size: 300em;
     font-weight: 50;
+}
+
+h2 {
+    font-family: "Wolfs Bane" ;
+    font-weight: 50 ;
 }
