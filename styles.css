@@ -19,6 +19,7 @@ body {
 p, a, li {
     line-height: 2em;
     font-size: 1.1em;
+    text-decoration: none;
 }
 
 h1 {
@@ -37,5 +38,20 @@ title {
 
 h2 {
     font-family: "Wolfs Bane" ;
-    font-weight: 50 ;
+    font-weight: 20 ;
+    font-size: 100 ;
+    scale: 2 ;
+}
+
+a:link {
+color:black ;
+}
+
+a:visited {
+    color: white ;
+}
+
+a:hover {
+    color:red ;
+    transition: .8s ;
 }
