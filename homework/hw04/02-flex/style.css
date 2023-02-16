@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* create additional rules below:  */
+
+#home {
+display: flex ; 
+background-color: grey;
+min-height: 100vh ;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+}
+
+#bio{
+display:flex ;
+background-color: lightgray;
+min-height: 100vh ;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+}
+
+#portfolio{
+display: flex ;
+background-color: grey;
+min-height: 100vh ;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+}
+
+#contact{
+display: flex ;
+background-color: lightgray;
+min-height: 100vh ;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+}
