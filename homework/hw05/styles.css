@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+
+nav {
+    background-color: teal;
+    padding: 30px;
+   
+}
