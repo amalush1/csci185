@@ -27,7 +27,13 @@ h1 {
     font-weight:100 ;
     font-size: 1000 ;
     text-align: center ;
-    scale: 3.5 ;
+    scale: 5 ;
+    margin: 100px;
+}
+
+h1:hover{
+    color: red;
+    transition:.8s;
 }
 
 
@@ -40,7 +46,7 @@ h2 {
     font-family: "Wolfs Bane" ;
     font-weight: 20 ;
     font-size: 100 ;
-    scale: 2 ;
+    scale: 3 ;
 }
 
 a:link {
@@ -48,10 +54,19 @@ color:black ;
 }
 
 a:visited {
-    color: white ;
+    color: black ;
 }
 
 a:hover {
     color:red ;
     transition: .8s ;
+}
+
+ul{
+list-style-type: none;
+text-align: center;
+}
+
+main{
+    display: grid;
 }
