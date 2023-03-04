@@ -12,8 +12,130 @@ body {
 
 /* Your CSS Code Here! */
 
-nav {
-    background-color: teal;
-    padding: 30px;
+header {
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white; 
+    flex-direction: column;
+
+}
+
+header img{
+
+    border-radius: 50%;
+  
+}
+
+header>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+   background-color: gainsboro;
    
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    justify-content: left;
+}
+
+#about {
+    padding: 50px;
+}
+
+#projects{
+    background-color: rgb(214, 218, 222);
+    display: grid;
+    padding-left: 95px;
+    
+
+}
+
+div.project-holder{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap:10px
+}
+
+
+div.contact-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+#name,#email,#message{
+    background-color:gainsboro;
+    margin: 5px;
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#message{
+    width:83%;
+    height: 50%;
+}
+
+#contact{
+    padding: 40px;
+    padding-left: 50px;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#submit{
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:rgb(131, 131, 131)
+}
+
+@media screen and (max-width: 800px){
+    div.project-holder{
+        grid-template-columns:1fr;
+    }
+}
+
+@media screen and (max-width: 800px){
+    contact{
+        grid-template-columns:1fr;
+    }
+}
+
+@media screen and (max-width: 800px){
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+
