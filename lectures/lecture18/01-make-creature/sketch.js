@@ -29,3 +29,4 @@ function makeCreature (x,y, fillColor){
 function mouseDragged(){
     makeCreature(mouseX,mouseY, 'pink');
 }
+
