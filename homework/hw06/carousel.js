@@ -18,7 +18,14 @@ let idx = 0;
     (2) update the caption inside of the .caption paragraph
 */
 function showImage() {
-    console.log('Show image');
+    console.log('showImage');
+    (document.querySelector <img src>  "images/img1-600x400.jpg")
+    else if{
+        idx++;
+    }
+   
+
+
 }
 
 
@@ -29,7 +36,17 @@ function showImage() {
    the array, set idx to 0.
 */
 function forward() {
-    console.log('forward');
+    console.log(idx);
+    
+        if (idx == photos.length-1){
+    idx=0   
+        }else{
+            idx+=1
+        }
+    
+    showImage()
+  
+    
 }
 
 
@@ -40,5 +57,14 @@ function forward() {
    one less than the length of the array.
 */
 function back() {
-    console.log('back');
+    console.log(idx);
+    
+        if (idx == photos.length+1){
+    idx=0   
+        }else{
+            idx-=1
+        }
+    
+    showImage()
+    
 }
