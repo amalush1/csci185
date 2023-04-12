@@ -19,13 +19,11 @@ let idx = 0;
 */
 function showImage() {
     console.log('showImage');
-    (document.querySelector <img src>  "images/img1-600x400.jpg")
-    else if{
-        idx++;
-    }
-   
-
-
+    document.querySelector ("#current").src=photos[idx]
+    document.querySelector (".caption").innerHTML = `${idx+1} out of ${photos.length}`
+    
+       
+        
 }
 
 
@@ -38,14 +36,14 @@ function showImage() {
 function forward() {
     console.log(idx);
     
-        if (idx == photos.length-1){
-    idx=0   
-        }else{
-            idx+=1
-        }
-    
+    if (idx === 9){
+        idx = 0;
+    }
+    else{ ++idx}
+   
     showImage()
   
+    
     
 }
 
@@ -59,12 +57,10 @@ function forward() {
 function back() {
     console.log(idx);
     
-        if (idx == photos.length+1){
-    idx=0   
-        }else{
-            idx-=1
-        }
-    
+    if (idx === 0){
+        idx = 9;
+    }
+    else{ --idx}
     showImage()
     
 }
