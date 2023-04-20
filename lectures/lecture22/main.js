@@ -26,9 +26,38 @@ fetchCourses();
 
 function search() {
     console.log(data);
-    console.log (data[49].Title);
-    console.log (data[49].Instructors[0].name); 
-    document.querySelector('courses').innerHTML = data[49].Instructors[0].Name;
-    // go find the course stored at slot 49, then find the instructor name in the key. what's in instructors is an array w 1 object. enter 1st slot, then print
-    const searchTerm = document.querySelector('#search_term').value;
+    let i =0;
+// while (i < 900){
+//     console.log(data[i].Title);
+//     i++;
+// }
+
+
+for(let i = 0; i < data.length; i++){
+    if(data[i].Department==='NM'){
+let instructor = 'TBD';
+if (data[i].Instructors.length > 0){
+    instructor=data[i].Instructors[0].Name;
 }
+    const template =`
+    <section class="course">
+            <h2>${data[i].Code}: ${data[i].Title};</h2>
+            <p>
+                ${data[i].Days};  ${data[i].Location.FullLocation}; ${data[i].Hours}
+            </p>
+            <p><strong>${instructor}</strong></p>
+    `;
+    document.querySelector('.courses').insertAdjacentHTML(
+        'beforeend', template
+    )
+    }
+}
+    // console.log (data[49].Title);
+    // console.log (data[49].Instructors[0].Name); 
+    // document.querySelector('courses').innerHTML = data[49].Instructors[0].Name;
+    // // go find the course stored at slot 49, then find the instructor name in the key. what's in instructors is an array w 1 object. enter 1st slot, then print
+    // const searchTerm = document.querySelector('#search_term').value;
+}
+
+
+

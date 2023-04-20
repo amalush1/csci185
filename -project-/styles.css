@@ -1,0 +1,19 @@
+#grid-container1{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#grid-container2{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+nav{
+    border: solid 1px black;
+}
