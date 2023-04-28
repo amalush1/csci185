@@ -46,7 +46,7 @@ async function getAlbums(term) {
         const template = `<section class="album-card" id="2lATw9ZAVp7ILQcOKPCPqp">
         <div>
             <img src="${albums.image_url}"alt= ${albums.name}" >
-            <h2>${albums.name} 結 'Answer'</h2>
+            
             <div class="footer">
                 <a href="${albums.spotify_url}" target="_blank">
                     view on spotify
