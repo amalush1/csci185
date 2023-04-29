@@ -1,127 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="styles.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet" />
 
 <head>
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <nav>
-        <h1><a href="#home">Mars</a></h1>
-        <li><a href="about">About</a></li>
-        <li><a href="#Gallery">Gallery</a></li>
-        <li><a href="#Contact">Contact</a></li>
-    </nav>
+    <header>
+        <img src="images/icon.PNG" class="icon" alt="marsbit's logo">
+    </header>
+
 
     <main>
-
+        <h1>about <div class="about"></div>
+        </h1>
+        <p>hello! my name is mars and i am a 20 year old digital artist! i love drawing character portraits and
+            environments
+            that make you feel like you are in a memory. my biggest sources of inspiration are Disney, Pixar, Studio
+            Gibli,
+            and the studio ScienceSARU</p>
+        <p>to create my artwork I use the application Procreate on an iPad Pro 12.9in. The portability and strength of
+            this device allows me to draw professional illustration anytime, anywhere.</p>
+        </div>
     </main>
 
-    <!-- <section class="carousel" aria-label="Photo Carousel">
-        <div class="current-photo">
-            <img id = "current" src="images/img1-600x400.jpg" alt="current photo" />
-        </div> 
-        <button onclick = "back()" class="back" aria-label="Show previous slide">
-            <img src="images/left.png" alt="" />
-        </button>
-        <button onclick = "forward()" class="forward" aria-label="Show next slide">
-            <img src="images/right.png" alt="" />
-        </button>
-        <p class="caption">drawing title</p>
-    </section> -->
-
-    <!-- <section>
-        <div class="grid-container1">
-            <div class="grid-item"><img src="images/people/mars_icon.png" alt="digital art of mars"></div>
-            <div class="grid-item"><img src="images/people/waterfalls.png" alt="digital art of a person with waterfalls coming out their mouth. they are crying"></div>
-            <div class="grid-item"><img src="images/people/batter_up.png" alt="digital art of an intimidating man with a deer skull mask and a bat."></div>
-            <div class="grid-item"><img src="images/people/boruto_redraw.png" alt="digital art of boruto uzumaki from boruto"></div>
-            <div class="grid-item"><img src="images/people/rachel.png" alt="digital art of a girl readying to fight. they are mostly navy."></div>
-            <div class="grid-item"><img src="images/people/lighting_sword.png" alt="digital art of a guy swinging a sword that is crackling lightning"></div>
-            <div class="grid-item"><img src="images/people/sahnji.png" alt="digital art of a girl mid jump weaving a handsign. she is in a cape"></div>
-            <div class="grid-item"><img src="images/people/takaro.jpg" alt="digital art of a man posed to strike. they have tan skin"></div>
-            <div class="grid-item"><img src="images/people/torakyda.jpg" alt="digital art of a woman with tiger's paws for hands. she is striking at the camera"></div>
-            <div class="grid-item"><img src="images/people/april.png" alt="digital art of a blonde woman wounded on the floor. she is determined."></div>
-            <div class="grid-item"><img src="images/people/konan.png" alt="digital art of konan from the naruto series"></div>
-            <div class="grid-item"><img src="images/people/self_portrait.png" alt="digital art of me!"></div>
-          </div>
-    </section>
-
-    <section>
-        <div class="grid-container2">
-            <div class="grid-item"><img src="images/environments/black_sky.png" alt="digital art of a black murky sky"></div>
-            <div class="grid-item"><img src="images/environments/blue_sky.png" alt="digital art of a blue sunny sky"></div>
-            <div class="grid-item"><img src="images/environments/green_sky.png" alt="digital art of a whimsical dusk sky"></div>
-            <div class="grid-item"><img src="images/environments/pale_sky.png" alt="digital art of pale white clouds"></div>
-            <div class="grid-item"><img src="images/environments/pink_and_teal.png" alt="digital art of pink clouds over a teal sky"></div>
-            <div class="grid-item"><img src="images/environments/pink_sky.png" alt="digital art of a pink and purple sky"></div>
-            <div class="grid-item"><img src="images/environments/puffy_sky.png" alt="digital art of a sunset with pink clouds. a telephone pole is in the foreground."></div>
-            <div class="grid-item"><img src="images/environments/storm.png" alt="digital art of a landscape with huge swelling clouds, and a storm coming in the distance. a telephone pole is in the foreground."></div>
-            <div class="grid-item"><img src="images/environments/sunset.png" alt="digital art of a field with a sun setting"></div>
-          </div>
-    </section> -->
-
-    <div class=”gallery”>
-        <figure class=”gallery__item gallery__item--1">
-            <img src="images/people/mars_icon.png" class="gallery__img" alt="Digital Art of a girl with red hair.">
-        </figure>
-        <figure class="gallery__item gallery__item--2">
-            <img src="images/people/april.png" class="gallery__img"
-                alt="Digital art of a girl kneeling covering a wound.">
-        </figure>
-        <figure class="gallery__item gallery__item--3">
-            <img src="images/people/batter_up.png" class="gallery__img" alt="Digital art of a guy with a skull mask.">
-        </figure>
-        <figure class="gallery__item gallery__item--4">
-            <img src="images/people/boruto_redraw.png" class="gallery__img" alt="Digital art of boruto from boruto.">
-        </figure>
-        <figure class="gallery__item gallery__item--5">
-            <img src="images/people/konan.png" class="gallery__img" alt="Digital art of konan from Naturo.">
-        </figure>
-        <figure class="gallery__item gallery__item--6">
-            <img src="images/people/lighting_sword.png" class="gallery__img" alt="Digital art of a guy with a sword.">
-        </figure>
-        <figure class="gallery__item gallery__item--7">
-            <img src="images/people/rachel.png" class="gallery__img" alt="Digital art of a girl ready to fight.">
-        </figure>
-        <figure class="gallery__item gallery__item--8">
-            <img src="images/people/sahnji.png" class="gallery__img"
-                alt="Digital art of a girl in a robe ready to fight.">
-        </figure>
-        <figure class="gallery__item gallery__item--9">
-            <img src="images/people/self_portrait.png" class="gallery__img" alt="Digital self portrait.">
-        </figure>
-        <figure class="gallery__item gallery__item--10">
-            <img src="images/people/takaro.jpg" class="gallery__img" alt="Digital art of a guy ready to fight.">
-        </figure>
-        <figure class="gallery__item gallery__item--11">
-            <img src="images/people/waterfalls.png" class="gallery__img"
-                alt="Digital art of a girl with waterfalls coming out her mouth.">
-        </figure>
-        <figure class="gallery__item gallery__item--12">
-            <img src="images/people/torakyda.jpg" class="gallery__img"
-                alt="Digital art of a girl with tiger's oaws for hands.">
-        </figure>
+    <h1>gallery<div class=”gallery”></div>
+    </h1>
+    <figure class=”gallery__item gallery__item--1">
+        <img src="images/people/mars_icon.png" class="gallery__img" alt="Digital Art of a girl with red hair.">
+    </figure>
+    <figure class="gallery__item gallery__item--2">
+        <img src="images/people/april.png" class="gallery__img" alt="Digital art of a girl kneeling covering a wound.">
+    </figure>
+    <figure class="gallery__item gallery__item--3">
+        <img src="images/people/batter_up.png" class="gallery__img" alt="Digital art of a guy with a skull mask.">
+    </figure>
+    <figure class="gallery__item gallery__item--4">
+        <img src="images/people/boruto_redraw.png" class="gallery__img" alt="Digital art of boruto from boruto.">
+    </figure>
+    <figure class="gallery__item gallery__item--5">
+        <img src="images/people/konan.png" class="gallery__img" alt="Digital art of konan from Naturo.">
+    </figure>
+    <figure class="gallery__item gallery__item--6">
+        <img src="images/people/lighting_sword.png" class="gallery__img" alt="Digital art of a guy with a sword.">
+    </figure>
+    <figure class="gallery__item gallery__item--7">
+        <img src="images/people/rachel.png" class="gallery__img" alt="Digital art of a girl ready to fight.">
+    </figure>
+    <figure class="gallery__item gallery__item--8">
+        <img src="images/people/sahnji.png" class="gallery__img" alt="Digital art of a girl in a robe ready to fight.">
+    </figure>
+    <figure class="gallery__item gallery__item--9">
+        <img src="images/people/self_portrait.png" class="gallery__img" alt="Digital self portrait.">
+    </figure>
+    <figure class="gallery__item gallery__item--10">
+        <img src="images/people/takaro.jpg" class="gallery__img" alt="Digital art of a guy ready to fight.">
+    </figure>
+    <figure class="gallery__item gallery__item--11">
+        <img src="images/people/waterfalls.png" class="gallery__img"
+            alt="Digital art of a girl with waterfalls coming out her mouth.">
+    </figure>
+    <figure class="gallery__item gallery__item--12">
+        <img src="images/people/torakyda.jpg" class="gallery__img"
+            alt="Digital art of a girl with tiger's oaws for hands.">
+    </figure>
     </div>
 
-    <div class="about">
-    <h1>about</h1>
-    <p>hello! my name is mars and i am a 20 year old digital artist! i love drawing character portraits and environments
-        that make you feel like you are in a memory. my biggest sources of inspiration are Disney, Pixar, Studio Gibli,
-        and the studio ScienceSARU</p>
-    <p>to create my artwork I use the application Procreate on an iPad Pro 12.9in. The portability and strength of this
-        device allows me to draw professional illustration anytime, anywhere.</p>
+    <div>
+        <h1>contact<div class=”contact”></div></h1>
+        <!-- w3 schools as a base for this form -->
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
     </div>
 
-<div class="">
-
-</div>
-
-
-        <footer>
-            mars, 2023.
-        </footer>
+    <footer>
+        mars, 2023.
+    </footer>
+    </div>
 </body>
 
 </html>
